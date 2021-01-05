@@ -1,0 +1,15 @@
+__pycache__
+locust_plugins.egg-info
+pip-wheel-metadata
+build
+dist
+locust_plugins.egg-info
+src
+.eggs
+.metals
+.mypy_cache
+.tox
+env
+.pyc
+.DS_Store
+.env
