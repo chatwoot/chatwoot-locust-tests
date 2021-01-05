@@ -34,3 +34,13 @@ locust -f locustfiles/conversation_api.py
 
 Access http://localhost:8089/ , fill in the host `http://localhost:3000` and number of users.
 Let the 🦗 swarm
+
+## Things to Note
+
+- Set your rails installation logging to `error` or higher. Since the load test can generate a lot of logs
+
+```
+# in your chatwoot .env file
+LOG_LEVEL=error
+```
+- When running on local, Use `mailhog` instead of `letter_opener` to handle emails.
